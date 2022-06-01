@@ -12,11 +12,11 @@ const password = process.env.PASSWORD;
 const database = process.env.DATABASE;
 
 const db = new Pool({
-    host: "localhost",
-    port: 5432,
-    user: "postgres",
-    password: "1506",
-    database: "boardcamp"
+    host,
+    port,
+    user,
+    password,
+    database
 });
 
 export default db;
